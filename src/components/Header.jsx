@@ -3,7 +3,7 @@ import { Menu, X, GraduationCap, Phone, Mail, ChevronDown } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [activeDropdown, setActiveDropdown] = useState(null);
 
   const schools = [
     { name: "Pannai Engineering College", href: "#engineering" },
